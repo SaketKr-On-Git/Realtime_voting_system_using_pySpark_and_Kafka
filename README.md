@@ -7,7 +7,7 @@ This repository contains the code for a realtime election voting system. The sys
 ![system_architecture.jpg](https://github.com/SaketKr-On-Git/Realtime_voting_system_using_pySpark_and_Kafka/blob/main/images/system_architecture.png)
 
 ## System Flow
-![system_flow.jpg](images%2Fsystem_flow.jpg)
+![system_flow.jpg](https://github.com/SaketKr-On-Git/Realtime_voting_system_using_pySpark_and_Kafka/blob/main/images/WINNER.png)
 
 ## System Components
 - **main.py**: This is the main Python script that creates the required tables on postgres (`candidates`, `voters` and `votes`), it also creates the Kafka topic and creates a copy of the `votes` table in the Kafka topic. It also contains the logic to consume the votes from the Kafka topic and produce data to `voters_topic` on Kafka.
